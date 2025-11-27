@@ -30,7 +30,8 @@ The simulation compares the VFD soft-starter against a standard DOL start:
 
 ![DOL Circuit](DOL.png)
 ![VFD Circuit](VFD.png)
-![DOL Result](SPEED VS CURRENT WITHOUT VFD.png)
+
+![DOL Result](SPEEDVSCURRENTWITHOUTVFD.png)
 
 ### Direct-On-Line (DOL) Results
 
@@ -42,7 +43,7 @@ The stator current shows a very large inrush spike at the moment of startup, rea
 
 ---
 
-![VFD Result](SPEED VS CURRENT WITH VFD.png)
+![VFD Result](SPEED-VS-CURRENT-WITH-VFD.png)
 
 ### VFD Soft-Starting Results
 
@@ -58,8 +59,6 @@ The stator current starts at a low and controlled level instead of showing a lar
 3.  Use the **Dashboard Knob** to vary the motor speed.
 4.  Check the **Scopes** to view Current, Speed, and Torque waveforms.
 
-## References
-* **Standards:** SBC 401 (Saudi Building Code) / NEC Table 430.250.
 
 ---
 **Authors:** [Turki Alzahrani and Majed Gandaih and Abdullah Al-Ahmari , Osama Zawawi].
