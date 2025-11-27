@@ -28,15 +28,16 @@ This project simulates a **Variable Frequency Drive (VFD)** system using **Open-
 ## Results: VFD vs. DOL
 The simulation compares the VFD soft-starter against a standard DOL start:
 
-![DOL Circuit](r)
-![VFD Circuit](result1.png)
-![DOL Result](result1.png)
+![DOL Circuit](DOL.png)
+![VFD Circuit](VFD.png)
+
+![DOL Result](SPEED VS CURRENT WITHOUT VFD.jpg)
 Rotor Speed (Top Plot)
 The rotor speed rises very quickly with a noticeable abrupt jump at the beginning. The machine reaches its final speed almost instantly, which shows the aggressive acceleration typical of direct-on-line (DOL) starting. Small oscillations appear due to the sudden high torque applied at startup.
 
 Stator Current (Bottom Plot)
 The stator current shows a very large inrush spike at the moment of startup, reaching a high peak before settling into a steady waveform. This high current peak is characteristic of DOL starting and indicates strong electrical stress on the machine windings.
-![VFD Result](result1.png)
+![VFD Result](SPEED VS CURRENT WITH VFD1.jpg)
 Rotor Speed (Top Plot)
 The rotor speed increases smoothly and reaches its final value without any overshoot. The startup is gradual and controlled, showing that the updated VFD model provides a stable acceleration. The small oscillation at the beginning is part of the normal transient response
 
